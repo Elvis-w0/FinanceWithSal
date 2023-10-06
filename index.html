@@ -9,6 +9,16 @@
     <link rel="stylesheet" href="asset/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="asset/sal-scroll-animatrion/sal.css">
     <link rel="stylesheet" href="style/index.css">
+
+    <script defer src="node_modules/sal.js/dist/sal.js"></script>
+    <script defer>
+        sal(
+            {
+                threshold: 1,
+            once: false,
+            }
+        );
+    </script>
     <title>Chese Financials Services</title>
 </head>
 
@@ -70,9 +80,7 @@
                 </div>
             </div>
             <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xg-6 pt-3">
-                <div class="card shadow border-0" data-sal="fade"
-                data-sal-delay="300"
-                data-sal-easing="ease-out-back" data-sal-duration="1200">
+                <div class="card shadow border-0">
                     <div class="card-body d-flex flex-column justify-content-center align-items-center gap-4">
                         <div class="card-title bg-light container-fluid">
                             <h5>Mortgage</h5>
@@ -405,15 +413,7 @@
         </div>
     </footer>
     <!-- Include Bootstrap JS (optional) -->
-    <script src="node_modules/sal.js/dist/sal.js"></script>
-    <script >
-        sal(
-            {
-                threshold: 1,
-            once: false,
-            }
-        );
-    </script>
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
